@@ -27,5 +27,5 @@ const run = (numLimit = Infinity) => {
   return res
 }
 
-console.log(JSON.stringify(run(20)) == fs.readFileSync('./firstTwenty.json', 'utf8'))
+// console.log(JSON.stringify(run(20)) == fs.readFileSync('./firstTwenty.json', 'utf8'))
 run()
